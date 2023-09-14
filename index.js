@@ -17,3 +17,11 @@ input.addEventListener("mouseleave", function() {
 input2.addEventListener("mouseleave", function() {
     flower.style.filter = 'blur(5px)';
 })
+
+flower.addEventListener("mouseover", function() {
+    flower.style.filter = 'blur(0px)'
+})
+
+flower.addEventListener("mouseleave", function() {
+    flower.style.filter = 'blur(5px)';
+})

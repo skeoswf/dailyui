@@ -44,10 +44,6 @@ html {
     transform: translate(10px, 10px);
 }
 
-#icon:hover {
-    filter:blur(0px);
-}
-
 #field1 {
     margin-top: -25px;
 }
