@@ -7,7 +7,7 @@ html {
 .everythingelse {
     color: rgb(247, 161, 175);
     text-shadow: 0px 0px 10px rgb(255, 255, 255);
-    margin-top: 200px;
+    margin-top: 100px;
     text-align: center;
     font-family: Montserrat;
 }
@@ -71,6 +71,6 @@ html {
     display: block;
     width: 500px;
     text-align: center;
-    margin: 40px auto 200px auto;
+    margin: 40px auto 100px auto;
     font-size: 25px;
 }
