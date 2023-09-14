@@ -19,5 +19,11 @@ h1 {
     height: 600px;
     border-radius: 10%;
     background: linear-gradient(112deg, rgb(160, 7, 101), rgb(87, 12, 80));
-    background-blend-mode: difference;
+}
+
+#icon {
+    display: block;
+    margin: 40px 35px auto auto;
+    border-radius: 10%;
+    filter:drop-shadow(10px 10px 5px rgb(25, 2, 63))
 }
