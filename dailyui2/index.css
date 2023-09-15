@@ -45,22 +45,31 @@ a {
 #choose {
     text-align: center;
     margin-top: 30%; 
-    transition: all ease 0.5s;
     font-family: Mukta;
     font-size: 40px;
     color: rgb(077, 086, 069);
-
 }
 
 button {
     width: 25%;
-    height: 30px;
+    height: 35px;
     font-family: Mukta;
     margin: 20px;
     background-color: rgb(077, 086, 069);
     color: rgb(255, 253, 208);
+    border-radius: 35px;
+    transition: background-color ease 0.5s;
 }
 
 #choosetext {
     margin-bottom: -10px;
+    transition: all ease 0.5s;
+}
+
+button:hover {
+    background-color: rgb(102, 114, 92);
+}
+
+.choosetextPhase2 {
+    transform: translate(0, -20px)
 }
