@@ -57,6 +57,8 @@ button {
     height: 30px;
     font-family: Mukta;
     margin: 20px;
+    background-color: rgb(077, 086, 069);
+    color: rgb(255, 253, 208);
 }
 
 #choosetext {
