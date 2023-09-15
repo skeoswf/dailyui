@@ -12,8 +12,6 @@ html {
     font-family: Montserrat;
 }
 
-
-
 #uichallenge {
     border: 6px solid rgb(247, 161, 175);
     margin: 40px auto;
@@ -75,17 +73,4 @@ html {
     text-align: center;
     margin: 40px auto 100px auto;
     font-size: 25px;
-}
-
-#nav {
-    margin-top: -10px;
-    margin-bottom: -10px;
-    font-size: 30px;
-    font-weight: bolder;
-    text-shadow: 0px 0px 10px rgb(255, 255, 255);
-}
-
-
-a:link {
-    color: rgb(247, 161, 175);
 }
