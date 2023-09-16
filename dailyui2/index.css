@@ -5,6 +5,21 @@ html {
     background-color: rgb(077, 086, 069);
 }
 
+body {
+    animation: fadeInAnimation ease 0.5s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+@keyframes fadeInAnimation {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
 .everythingelse {
     color: rgb(143, 214, 49);
     text-shadow: 0px 0px 10px rgb(6, 145, 133);
@@ -104,3 +119,19 @@ input {
 .cardInformationPhase2 {
     transform: translate(0, -135px);
 }
+
+.cardInformationFade {
+    animation: fadeInfo ease 0.5s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+@keyframes fadeInfo {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
