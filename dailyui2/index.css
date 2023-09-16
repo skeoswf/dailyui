@@ -81,3 +81,20 @@ button:hover {
     transform: translate(0, -135px);
 }
 
+#cardInformation {
+    display: flex;
+    flex-direction: column;
+    border: rgb(23, 155, 137) 10px solid;
+    margin: 10px;
+}
+
+#cardInformation2 {
+    display: flex;
+    border: red 5px solid;
+    justify-content: space-between;
+}
+
+input {
+    text-align: center;
+    margin: 10px;
+}
