@@ -98,7 +98,6 @@ button:hover {
 #cardInformation {
     display: flex;
     flex-direction: column;
-    border: rgb(23, 155, 137) 10px solid;
     margin: 10px;
     transition: all ease 1s;
     visibility: hidden;
@@ -114,6 +113,8 @@ input {
     text-align: center;
     margin: 10px;
     height: 35px;
+    border-radius: 20px;
+    color: rgb(077, 086, 069);
 }
 
 .cardInformationPhase2 {
@@ -121,8 +122,8 @@ input {
     scale: 0.95;
 }
 
-.cardInformationFade {
-    animation: fadeInfo ease 0.5s;
+.cardInformationFadeIn {
+    animation: fadeInfo ease 1s;
     animation-iteration-count: 1;
     animation-fill-mode: forwards;
 }
@@ -136,3 +137,17 @@ input {
     }
 }
 
+.fadeOutClass {
+    animation: fadeOut ease 0.5s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+@keyframes fadeOut {
+    0% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+}
