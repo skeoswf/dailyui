@@ -107,7 +107,6 @@ button:hover {
 
 #cardInformation2 {
     display: flex;
-    border: red 5px solid;
     justify-content: space-between;
 }
 
