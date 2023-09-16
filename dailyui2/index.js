@@ -2,6 +2,7 @@ const button1 = document.querySelector("#card");
 const button2 = document.querySelector("#paypal")
 const choosetext = document.querySelector("#choosetext")
 const allInformation = document.querySelector("#cardInformation")
+const payPalIcon = document.querySelector("#payPalLink")
 
 
 
@@ -19,6 +20,4 @@ button2.addEventListener("click", function() {
     button1.classList.add("buttonsPhase2")
     button2.classList.add("buttonsPhase2")
     allInformation.classList.toggle("fadeOutClass")
-    // allInformation.style.visibility = "visible"
-    // allInformation.classList.add("cardInformationFade")
 })

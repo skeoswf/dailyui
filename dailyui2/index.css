@@ -153,8 +153,14 @@ input {
 }
 
 #payPalLink {
-    scale: 0.5;
+    scale: 0.55;
     border: red solid 5px;
     text-align: center;
     margin-top: -350px;
+}
+
+.payPalLinkPhase2 {
+    scale: 0.95;
+    transform: translate(0, -135px);
+    transition: all ease 1s;
 }
