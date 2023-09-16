@@ -151,3 +151,10 @@ input {
         opacity: 0;
     }
 }
+
+#payPalLink {
+    scale: 0.5;
+    border: red solid 5px;
+    text-align: center;
+    margin-top: -350px;
+}
